@@ -1,9 +1,19 @@
+//primary colors
+$very-dark-magenta: hsl(300, 43%, 22%);
+$soft-pink: hsl(333, 80%, 67%);
+
+//neutral colors
+$dark-drayish-magenta: hsl(303, 10%, 53%);
+$light-grayish-magenta: hsl(300, 24%, 96%);
+$white: hsl(0, 0%, 100%);
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     border: 1px solid black
 }
+
 
 .attribution {
     font-size: 11px;
