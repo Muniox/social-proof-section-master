@@ -6,7 +6,7 @@
   border: 1px solid black;
 }
 
-.container {
+.my-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -30,7 +30,7 @@
 
 .stars::before {
   content: url(../images/icon-star.svg) url(../images/icon-star.svg) url(../images/icon-star.svg) url(../images/icon-star.svg) url(../images/icon-star.svg);
-  margin-right: 5px;
   vertical-align: middle;
+  padding-right: 20px;
 }
 /*# sourceMappingURL=style.css.map */
