@@ -14,12 +14,24 @@ $white: hsl(0, 0%, 100%);
     border: 1px solid black
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
 
 .attribution {
     font-size: 11px;
     text-align: center;
-  }
+}
   
 .attribution a {
     color: hsl(228, 45%, 44%);
-  }
+}
+
+.stars::before {
+  content: url(../images/icon-star.svg) url(../images/icon-star.svg) url(../images/icon-star.svg) url(../images/icon-star.svg) url(../images/icon-star.svg);
+  margin-right: 5px;
+  vertical-align: middle;
+}

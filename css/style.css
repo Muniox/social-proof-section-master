@@ -6,6 +6,19 @@
   border: 1px solid black;
 }
 
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -13,5 +26,11 @@
 
 .attribution a {
   color: #3e52a3;
+}
+
+.stars::before {
+  content: url(../images/icon-star.svg) url(../images/icon-star.svg) url(../images/icon-star.svg) url(../images/icon-star.svg) url(../images/icon-star.svg);
+  margin-right: 5px;
+  vertical-align: middle;
 }
 /*# sourceMappingURL=style.css.map */
