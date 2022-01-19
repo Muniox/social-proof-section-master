@@ -50,10 +50,14 @@ Body::before {
 }
 
 .stars::before {
-  content: url(../images/icon-star.svg) url(../images/icon-star.svg) url(../images/icon-star.svg) url(../images/icon-star.svg) url(../images/icon-star.svg);
+  display: inline-block;
+  content: '';
+  background-image: url(../images/icon-star.svg);
+  background-repeat: repeat-x;
+  width: 84px;
+  height: 20px;
+  margin: 0 20px;
   vertical-align: middle;
-  margin-right: 20px;
-  margin-left: 20px;
 }
 
 .w-90 {
