@@ -11,16 +11,25 @@ $white: hsl(0, 0%, 100%);
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    border: 1px solid black
+    // border: 1px solid black
 }
+
 
 .soft-pink {
   background-color: hsla(333, 80%, 67%, 0.1) !important;
 }
 
+.bg-magenta {
+  background-color: $very-dark-magenta !important;
+}
+
+.magenta {
+  color: $very-dark-magenta !important;
+}
+
 Body {
   background-color: $light-grayish-magenta !important;
-  font-family: 'Spartan', sans-serif;
+  font-family: 'Spartan', sans-serif !important;
 }
 
 Body::before {
@@ -69,4 +78,16 @@ Body::before {
 
 .w-90 {
   width: 90%;
+}
+
+.rounded-1 {
+  border-radius: 0.8rem !important;
+}
+
+.m1 {
+ margin-top: 1rem;
+}
+
+.m2 {
+  margin-top: 2rem;
 }

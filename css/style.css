@@ -3,16 +3,23 @@
           box-sizing: border-box;
   margin: 0;
   padding: 0;
-  border: 1px solid black;
 }
 
 .soft-pink {
   background-color: rgba(238, 104, 164, 0.1) !important;
 }
 
+.bg-magenta {
+  background-color: #502050 !important;
+}
+
+.magenta {
+  color: #502050 !important;
+}
+
 Body {
   background-color: #f7f2f7 !important;
-  font-family: 'Spartan', sans-serif;
+  font-family: 'Spartan', sans-serif !important;
 }
 
 Body::before {
@@ -62,5 +69,17 @@ Body::before {
 
 .w-90 {
   width: 90%;
+}
+
+.rounded-1 {
+  border-radius: 0.8rem !important;
+}
+
+.m1 {
+  margin-top: 1rem;
+}
+
+.m2 {
+  margin-top: 2rem;
 }
 /*# sourceMappingURL=style.css.map */
