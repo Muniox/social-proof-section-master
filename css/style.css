@@ -89,6 +89,7 @@ Body::before {
 
 img[alt^='Buyer'] {
   width: 40px;
+  height: 40px;
 }
 
 .my-margin {
