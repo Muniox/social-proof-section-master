@@ -103,7 +103,7 @@ img[alt^='Buyer'] {
   margin: 1rem;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 375px) {
   Body::before{
     background-image: url(../images/bg-pattern-top-mobile.svg), url(../images/bg-pattern-bottom-mobile.svg);
   }
